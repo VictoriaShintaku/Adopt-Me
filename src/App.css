@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Georgia', serif;
+}
+
+body {
+  background-color: #f5f0e8;
+  color: #1a1a1a;
+}
+
+nav {
+  background-color: #1a1a1a;
+  padding: 16px 32px;
+  display: flex;
+  gap: 24px;
+}
+
+nav a {
+  color: #f5f0e8;
+  text-decoration: none;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 40px 0 24px;
+  letter-spacing: 2px;
+}
+
+input {
+  display: block;
+  margin: 0 auto 32px;
+  padding: 12px 20px;
+  width: 400px;
+  border: 2px solid #1a1a1a;
+  background-color: #f5f0e8;
+  font-size: 16px;
+  outline: none;
+}
+
+.animais-lista {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  padding: 0 32px 48px;
+}
+
+.animal-card {
+  background-color: #1a1a1a;
+  color: #f5f0e8;
+  padding: 16px;
+  width: 220px;
+  text-align: center;
+  text-decoration: none;
+  transition: transform 0.2s;
+}
+
+.animal-card:hover {
+  transform: scale(1.05);
+}
+
+.animal-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+
+.animal-card h2 {
+  font-size: 1.2rem;
+  margin-bottom: 4px;
+}
+
+.animal-card p {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.detalhe {
+  max-width: 600px;
+  margin: 48px auto;
+  text-align: center;
+}
+
+.detalhe img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin: 24px 0;
+}
+
+.detalhe p {
+  font-size: 1.1rem;
+  margin: 8px 0;
+}
+
+.sobre {
+  max-width: 600px;
+  margin: 48px auto;
+  text-align: center;
+  line-height: 1.8;
+}
